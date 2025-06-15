@@ -18,17 +18,31 @@ return {
 			})
 		end,
 	},
+	-- {
+	-- 	"sainnhe/everforest",
+	-- 	lazy = false,
+	-- 	priority = 1000,
+	-- 	config = function()
+	-- 		-- Optionally configure and load the colorscheme
+	-- 		-- directly inside the plugin declaration.
+	-- 		vim.g.everforest_enable_italic = false
+	-- 		vim.g.everforest_transparent_background = 1
+	-- 		vim.g.everforest_background = "hard"
+	-- 		vim.cmd.colorscheme("everforest")
+	-- 		enable_transparency()
+	-- 	end,
+	-- },
 	{
-		"sainnhe/everforest",
+		"Mofiqul/vscode.nvim",
 		lazy = false,
 		priority = 1000,
 		config = function()
 			-- Optionally configure and load the colorscheme
 			-- directly inside the plugin declaration.
-			vim.g.everforest_enable_italic = false
-			vim.g.everforest_transparent_background = 1
-			vim.g.everforest_background = "hard"
-			vim.cmd.colorscheme("everforest")
+			vim.g.italic_comments = false
+			vim.g.transparent = true
+			vim.g.background = "dark"
+			vim.cmd.colorscheme("vscode")
 			enable_transparency()
 		end,
 	},
