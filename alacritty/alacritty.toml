@@ -1,4 +1,8 @@
 [general]
+import = [
+"~/.config/alacritty/everforest_dark.toml",
+]
+
 live_config_reload = true
 
 [terminal]
