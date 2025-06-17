@@ -6,5 +6,19 @@ return {
 		terminal = {
 			enabled = true,
 		},
+		explorer = {
+			enabled = true,
+			replace_netrw = true,
+		},
+		picker = {
+			sources = {
+				files = {
+					hidden = true,
+					ignored = true,
+				},
+			},
+			hidden = true,
+			ignored = true,
+		},
 	},
 }

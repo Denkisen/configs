@@ -17,3 +17,9 @@ vim.opt.hlsearch = true
 vim.opt.autochdir = true
 vim.opt.shell = "zsh"
 vim.g.lazyvim_rust_diagnostics = "rust-analyzer"
+
+vim.api.nvim_create_autocmd("VimEnter", {
+	callback = function()
+		vim.api.nvim_set_current_dir(vim.fn.expand("%:p:h"))
+	end,
+})
