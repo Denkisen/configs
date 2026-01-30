@@ -1,6 +1,6 @@
 [general]
 import = [
-    "./themes/citylights.toml"
+    "./themes/vscode-dark.toml"
 ]
 
 live_config_reload = true
@@ -27,4 +27,5 @@ bindings = [
 { key = "v", mods = "Super", action = "Paste" },
 { key = "q", mods = "Super", action = "Quit" },
 { key = "i", mods = "Super", action = "ToggleViMode" },
+{ key = "/", mods = "Control", chars = "\u001f" },
 ]
