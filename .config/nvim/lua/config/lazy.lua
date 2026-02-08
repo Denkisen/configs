@@ -29,7 +29,7 @@ require("lazy").setup({
 		{ import = "lazyvim.plugins.extras.lang.kotlin" },
 		{ import = "lazyvim.plugins.extras.lang.markdown" },
 
-		{ import = "lazyvim.plugins.extras.ai.avante" },
+		-- { import = "lazyvim.plugins.extras.ai.avante" },
 
 		{ import = "plugins" },
 	},

@@ -1,0 +1,10 @@
+[Unit]
+Description=AMD Pstate EPP config restart
+
+[Service]
+ExecStart=/usr/bin/systemctl restart cpu-epp.service
+Restart=always
+RestartSec=60s
+
+[Install]
+WantedBy=multi-user.target
